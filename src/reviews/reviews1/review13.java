@@ -1,3 +1,5 @@
+package reviews.reviews1;
+
 public class review13 {
     public static void main(String[] args) {
         double randomNum = Math.random()*4;
