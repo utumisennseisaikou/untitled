@@ -5,15 +5,15 @@ public class Review28 {
         BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
         System.out.print("宛先を入力>");
         String to = br.readLine();
-        System.out.print("件名を入力");
+        System.out.print("件名を入力>");
         String subject = br.readLine();
         System.out.print("本文を入力>");
         String body = br.readLine();
-
+        Email email = new Email();
         if(subject.equals("")){
-            System.out.println("件名は空です。");
+            email.send(to,body);
         }else{
-            System.out.println("件名は"+ subject + "です。");
+            email.send(to,subject,body);
 
         }
     }
