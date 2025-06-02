@@ -4,11 +4,9 @@ import textbook_practice.chapter6.comment.Kouhan_practice3;
 
 public class practice3 {
     public static void main(String[] args) throws Exception {
-        Zenhan zenhan = new Zenhan();
-        Kouhan_practice3 kouhan = new Kouhan_practice3();
-        zenhan.doWarusa();
-        zenhan.doTogame();
-        kouhan.callDeae();
-        kouhan.showMondokoro();
+        Zenhan.doWarusa();
+        Zenhan.doTogame();
+        Kouhan_practice3.callDeae();
+        Kouhan_practice3.showMondokoro();
     }
 }
