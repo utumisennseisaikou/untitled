@@ -5,7 +5,6 @@ public class Kouhan_practice3 {
         System.out.println("えぇい、こしゃくな。くせ者だ!であえい!");
     }
     public static void showMondokoro() {
-        Zenhan zenhan = new Zenhan();
         System.out.println("飛車さん、角さん。もういいでしょう。");
         System.out.println("この紋所が目にはいるぬか!");
         java.lang.Thread thread = new java.lang.Thread();
@@ -16,7 +15,7 @@ public class Kouhan_practice3 {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        zenhan.doTogame();
+        Zenhan.doTogame();
 
     }
 }
